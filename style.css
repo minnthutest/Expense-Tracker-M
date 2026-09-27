@@ -1,0 +1,66 @@
+/* Global font and layout tweaks */
+html, body, [class*="css"] {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Sidebar customization */
+section[data-testid="stSidebar"] {
+    background-color: #c2e7d0;
+    padding: 1rem;
+    border-right: 1px solid #ddd;
+}
+
+/* Main title */
+h1 {
+    color: #55be4b;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Form and card look */
+div[data-testid="stForm"] {
+    background-color: #9fe0cf;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ebbcf0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1rem;
+}
+
+/* Success / Warning messages */
+.stAlert {
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+/* Buttons */
+button[kind="primary"] {
+    background-color: #4B8BBE;
+    color: rgb(128, 234, 79);
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+}
+
+button[kind="primary"]:hover {
+    background-color: #3572a5;
+}
+
+/* Dataframe (Expense Table) tweaks */
+div[data-testid="stDataFrame"] {
+    border-radius: 8px;
+    border: 1px solid #f1b8e9;
+    margin-top: 1rem;
+}
+
+/* Metric display */
+[data-testid="stMetric"] {
+    background-color: #92d2d6;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
